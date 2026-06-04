@@ -1,0 +1,17 @@
+accelerate
+codetiming
+datasets
+dill
+# flash-attn  # optional: requires Linux + CUDA; verify SM arch support (e.g. Blackwell SM120 needs >=2.8.0 + CUDA 12.8+)
+einops
+hydra-core
+numpy
+pandas
+pybind11
+ray
+tensordict<0.6
+transformers<4.48
+# vllm<=0.6.3  # optional: required only when rollout.name=vllm; bind torch==2.4.0, incompatible with Blackwell
+wandb
+IPython
+matplotlib

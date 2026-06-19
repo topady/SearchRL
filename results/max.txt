@@ -1,0 +1,2 @@
+critic/score/mean 最大值：0.578
+val/test_score/nq 最大值：0.54854
